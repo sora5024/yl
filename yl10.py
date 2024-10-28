@@ -4,25 +4,25 @@
 # kui vanus on 18, siis õnnitleb täisealiseks saamise puhul,
 # kui kasutaja on vanem kui 18, siis ütleb, et kasutaja võib autot juhtida. 
 
-name = input('Sisesta oma nimi: ')
-print('Tere,',name)
+name = input('Enter your name: ')
+print('Hello,', name)
 
-location = input('Kus sa elad?:')
+location = input('Where do you live?:')
 
-if location == 'Saaremaa' or 'saaremaa':
+if location == 'Saaremaa' or location == 'saaremaa':
     try:
-        age = int(input('Kui vana sa oled?: '))
+        age = int(input('How old are you?: '))
         
         if age > 18:
-            print('Kasutaja võib autot juhtida.')
+            print('User can drive a car.')
 
         elif age < 18:
-            print('Kasutaja on liiga noor, et autot juhtida.')
+            print('User is too young to drive a car.')
 
         else:
-            print('Õnnitleme teid täisealiseks saamise puhul!')
+            print('Congratulations on turning 18!')
 
     except ValueError:
-        print('Palun sisestage kehtiv number.')
+        print('Please enter a valid number.')
 else:
-    print('Kasutaja ei ela Saaremaal.')
+    print('User does not live in Saaremaa.')
