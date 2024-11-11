@@ -1,3 +1,4 @@
 # ylesanded from the goat andrus naulainen
 
-https://i.redd.it/pk526r7515l61.jpg
+![image](https://github.com/user-attachments/assets/e6b110dd-f295-44e2-bb01-36fe780834ef)
+
