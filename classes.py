@@ -39,4 +39,3 @@ if student_one == student_two:
     print('Student 1 is the same as student 2.')
 else:
     print('Student 1 is not equivalent to student 2.')
-
